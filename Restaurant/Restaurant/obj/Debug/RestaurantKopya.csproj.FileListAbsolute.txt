@@ -1,0 +1,15 @@
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\RestaurantKopya.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.Classes.AdminForm.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.CashierForm.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.KitchenWorkerForm.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.Login.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.ReportsForm.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.WaiterForm.resources
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\RestaurantKopya.csproj.GenerateResource.cache
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\RestaurantKopya.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\omerc\Desktop\KOpya\Restaurant\Restaurant\bin\Debug\Restaurant.pdb

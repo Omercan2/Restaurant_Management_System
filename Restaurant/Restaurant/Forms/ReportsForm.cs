@@ -17,7 +17,7 @@ namespace Restaurant
         {
             InitializeComponent();
         }
-        SqlConnection adminconnection = new SqlConnection("Data Source=DESKTOP-DNNRNQO\\MSSQLSERVER01;Initial Catalog=Restaurant;Integrated Security=True");
+        SqlConnection adminconnection = new SqlConnection("Data Source=OMER;Initial Catalog=Restaurant;Integrated Security=True");
 
         private void ReportsForm_Load(object sender, EventArgs e)
         {

@@ -26,7 +26,7 @@ namespace Restaurant
         {
             InitializeComponent();
         }
-        SqlConnection waiterconnection = new SqlConnection("Data Source=DESKTOP-DNNRNQO\\MSSQLSERVER01;Initial Catalog=Restaurant;Integrated Security=True");
+        SqlConnection waiterconnection = new SqlConnection("Data Source=OMER;Initial Catalog=Restaurant;Integrated Security=True");
 
         private void WaiterForm_Load(object sender, EventArgs e)
         {

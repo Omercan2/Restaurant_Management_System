@@ -41,12 +41,12 @@
             this.OrderDateCollum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.OrderStatusCollum = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.TableStatusCollum = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.restaurantDataSet1 = new Restaurant.RestaurantDataSet1();
+           
             this.ordersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ordersTableAdapter = new Restaurant.RestaurantDataSet1TableAdapters.OrdersTableAdapter();
+            
             this.LblReportsName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DgrReports)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet1)).BeginInit();
+            
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -151,18 +151,15 @@
             this.TableStatusCollum.Name = "TableStatusCollum";
             // 
             // restaurantDataSet1
-            // 
-            this.restaurantDataSet1.DataSetName = "RestaurantDataSet1";
-            this.restaurantDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
+            
             // ordersBindingSource
             // 
             this.ordersBindingSource.DataMember = "Orders";
-            this.ordersBindingSource.DataSource = this.restaurantDataSet1;
+            
             // 
             // ordersTableAdapter
             // 
-            this.ordersTableAdapter.ClearBeforeFill = true;
+            
             // 
             // LblReportsName
             // 
@@ -186,7 +183,7 @@
             this.Text = "ReportsForm";
             this.Load += new System.EventHandler(this.ReportsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgrReports)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet1)).EndInit();
+            
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -198,9 +195,9 @@
         private System.Windows.Forms.Button BtnMonthly;
         private System.Windows.Forms.Button BtnYearly;
         private System.Windows.Forms.DataGridView DgrReports;
-        private RestaurantDataSet1 restaurantDataSet1;
+        
         private System.Windows.Forms.BindingSource ordersBindingSource;
-        private RestaurantDataSet1TableAdapters.OrdersTableAdapter ordersTableAdapter;
+        
         private System.Windows.Forms.Label LblReportsName;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdCollum;
         private System.Windows.Forms.DataGridViewTextBoxColumn WaiterIDCollum;

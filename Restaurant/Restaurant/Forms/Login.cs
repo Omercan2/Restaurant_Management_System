@@ -17,7 +17,7 @@ namespace Restaurant
         {
             InitializeComponent();
         }
-        SqlConnection connection = new SqlConnection("Data Source=DESKTOP-DNNRNQO\\MSSQLSERVER01;Initial Catalog=Restaurant;Integrated Security=True");
+        SqlConnection connection = new SqlConnection("Data Source=OMER;Initial Catalog=Restaurant;Integrated Security=True");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -27,6 +27,7 @@ namespace Restaurant
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
+            
             connection.Open();
             SqlCommand command = new SqlCommand("select * from Staff where Email=@p1 and Password=@p2", connection);
             command.Parameters.AddWithValue("@p1", TbxEmail.Text);

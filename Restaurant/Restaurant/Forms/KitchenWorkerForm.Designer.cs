@@ -30,8 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.ordersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.restaurantDataSet1 = new Restaurant.RestaurantDataSet1();
-            this.ordersTableAdapter = new Restaurant.RestaurantDataSet1TableAdapters.OrdersTableAdapter();
+
             this.BtnTable10 = new System.Windows.Forms.Button();
             this.BtnTable9 = new System.Windows.Forms.Button();
             this.BtnTable8 = new System.Windows.Forms.Button();
@@ -47,24 +46,17 @@
             this.BtnOrderReady = new System.Windows.Forms.Button();
             this.LblCart = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet1)).BeginInit();
+
             this.GrpBoxCartItems.SuspendLayout();
             this.SuspendLayout();
             // 
             // ordersBindingSource
             // 
             this.ordersBindingSource.DataMember = "Orders";
-            this.ordersBindingSource.DataSource = this.restaurantDataSet1;
+
             // 
             // restaurantDataSet1
-            // 
-            this.restaurantDataSet1.DataSetName = "RestaurantDataSet1";
-            this.restaurantDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ordersTableAdapter
-            // 
-            this.ordersTableAdapter.ClearBeforeFill = true;
-            // 
+           
             // BtnTable10
             // 
             this.BtnTable10.BackColor = System.Drawing.Color.LawnGreen;
@@ -238,7 +230,7 @@
             this.Text = "KitchenWorkerForm";
             this.Load += new System.EventHandler(this.KitchenWorkerForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet1)).EndInit();
+    
             this.GrpBoxCartItems.ResumeLayout(false);
             this.GrpBoxCartItems.PerformLayout();
             this.ResumeLayout(false);
@@ -246,9 +238,9 @@
         }
 
         #endregion
-        private RestaurantDataSet1 restaurantDataSet1;
+        
         private System.Windows.Forms.BindingSource ordersBindingSource;
-        private RestaurantDataSet1TableAdapters.OrdersTableAdapter ordersTableAdapter;
+        
         private System.Windows.Forms.Button BtnTable10;
         private System.Windows.Forms.Button BtnTable9;
         private System.Windows.Forms.Button BtnTable8;

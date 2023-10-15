@@ -38,7 +38,7 @@
             this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.restaurantDataSet = new Restaurant.RestaurantDataSet();
+            
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             this.TbxAdminJob = new System.Windows.Forms.TextBox();
             this.TbxAdminStatus = new System.Windows.Forms.TextBox();
             this.TbxAdminEmail = new System.Windows.Forms.TextBox();
-            this.staffTableAdapter = new Restaurant.RestaurantDataSetTableAdapters.StaffTableAdapter();
+            
             this.BtnAdd = new System.Windows.Forms.Button();
             this.BtnRemove = new System.Windows.Forms.Button();
             this.BtnUpdate = new System.Windows.Forms.Button();
@@ -61,7 +61,7 @@
             this.BtnReports = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet)).BeginInit();
+            
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -139,12 +139,11 @@
             // staffBindingSource
             // 
             this.staffBindingSource.DataMember = "Staff";
-            this.staffBindingSource.DataSource = this.restaurantDataSet;
+            
             // 
             // restaurantDataSet
             // 
-            this.restaurantDataSet.DataSetName = "RestaurantDataSet";
-            this.restaurantDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            
             // 
             // label1
             // 
@@ -267,7 +266,7 @@
             // 
             // staffTableAdapter
             // 
-            this.staffTableAdapter.ClearBeforeFill = true;
+            
             // 
             // BtnAdd
             // 
@@ -355,7 +354,7 @@
             this.Load += new System.EventHandler(this.AdminForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet)).EndInit();
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,9 +377,9 @@
         private System.Windows.Forms.TextBox TbxAdminJob;
         private System.Windows.Forms.TextBox TbxAdminStatus;
         private System.Windows.Forms.TextBox TbxAdminEmail;
-        private RestaurantDataSet restaurantDataSet;
+        
         private System.Windows.Forms.BindingSource staffBindingSource;
-        private RestaurantDataSetTableAdapters.StaffTableAdapter staffTableAdapter;
+        
         private System.Windows.Forms.DataGridViewTextBoxColumn ıDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn surnameDataGridViewTextBoxColumn;

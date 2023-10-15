@@ -17,7 +17,7 @@ namespace Restaurant.Classes
         {
             InitializeComponent();
         }
-        SqlConnection adminconnection = new SqlConnection("Data Source=DESKTOP-DNNRNQO\\MSSQLSERVER01;Initial Catalog=Restaurant;Integrated Security=True");
+        SqlConnection adminconnection = new SqlConnection("Data Source=OMER;Initial Catalog=Restaurant;Integrated Security=True");
 
 
         private void AdminForm_Load(object sender, EventArgs e)
@@ -48,7 +48,22 @@ namespace Restaurant.Classes
         private void BtnList_Click(object sender, EventArgs e)//for listing datas
         {
             // TODO: This line of code loads data into the 'restaurantDataSet.Staff' table. You can move, or remove it, as needed.
-            this.staffTableAdapter.Fill(this.restaurantDataSet.Staff);
+            //this.staffTableAdapter.Fill(this.restaurantDataSet.Staff);
+
+            //
+            adminconnection.Open();
+
+       
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("Select * from Staff",adminconnection);
+
+            DataTable dt = new DataTable(); 
+            dataAdapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+
+            adminconnection.Close();
+            
+
         }
 
         private void BtnRemove_Click(object sender, EventArgs e)// for removing data
